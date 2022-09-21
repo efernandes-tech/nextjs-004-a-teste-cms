@@ -27,13 +27,13 @@ export function PageHomeHeroSection(props) {
         }}
       >
         <Text tag="h1" variant="display1">
-          Mergulhe em Tecnologia!
+          {props.title}
         </Text>
         <Text tag="p" variant="body1">
-          Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira tecnologia.
+          {props.description}
         </Text>
-        <Button href="/faq" colorVariant="neutral">
-          Principais dúvidas
+        <Button href={props.ctalink} colorVariant="neutral">
+          {props.ctatext}
         </Button>
       </Box>
 

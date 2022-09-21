@@ -48,9 +48,7 @@ export async function getStaticProps({ preview }) {
 
 function HomeScreen() {
   return (
-    <>
-      <CMSSectionRender pageName="pageHome" />
-    </>
+    <CMSSectionRender pageName="pageHome" />
   )
 }
 
