@@ -42,7 +42,8 @@ export async function getStaticProps({ preview }) {
   return {
     props: {
       cmsContent
-    }
+    },
+    revalidate: 30
   }
 }
 
