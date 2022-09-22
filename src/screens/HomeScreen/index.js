@@ -23,6 +23,7 @@ export async function getStaticProps({ preview }) {
               }
               ... on CommonFooterRecord {
                 id
+                visible
               }
               ... on PagehomeHerosectionRecord {
                 id
